@@ -1,16 +1,27 @@
+JSON é uma forma de representar dados estruturados em texto. 
+temos um JSON que representa uma lista de personagens, onde cada personagem é um objeto com 
+três atributos: "id", "name" e "avatar".
 
-JSON é uma forma de representar dados estruturados em texto. temos um JSON que representa uma lista de personagens, onde cada personagem é um objeto com três atributos: "id", "name" e "avatar".
+[]: Os colchetes indicam que estamos lidando com uma lista. A lista contém vários objetos, 
+separados por vírgulas.
 
-[]: Os colchetes indicam que estamos lidando com uma lista. A lista contém vários objetos, separados por vírgulas.
+{}: As chaves indicam que estamos lidando com um objeto. Cada objeto representa um personagem
+e contém os atributos a seguir.
 
-{}: As chaves indicam que estamos lidando com um objeto. Cada objeto representa um personagem e contém os atributos a seguir.
+"id": 1: Aqui temos um par chave-valor. A chave é "id" e o valor é o número 1. Isso significa 
+que o primeiro personagem tem o ID 1.
 
-"id": 1: Aqui temos um par chave-valor. A chave é "id" e o valor é o número 1. Isso significa que o primeiro personagem tem o ID 1.
+"name": "Homem de Ferro": Outro par chave-valor. A chave é "name" e o valor é uma string que 
+representa o nome do personagem.
 
-"name": "Homem de Ferro": Outro par chave-valor. A chave é "name" e o valor é uma string que representa o nome do personagem.
+"avatar": "https://example.com/iron_man.jpg": Novamente, um par chave-valor. A chave é "avatar"
+e o valor é uma string que representa um URL de imagem, o avatar do personagem.
 
-"avatar": "https://example.com/iron_man.jpg": Novamente, um par chave-valor. A chave é "avatar" e o valor é uma string que representa um URL de imagem, o avatar do personagem.
+Cada objeto dentro da lista representa um personagem individual com seus atributos específicos.
+Eles estão agrupados entre colchetes, indicando que são itens da lista. Cada atributo dentro 
+do objeto é uma informação específica do personagem, associada a uma chave (nome) e um valor 
+correspondente.
 
-Cada objeto dentro da lista representa um personagem individual com seus atributos específicos. Eles estão agrupados entre colchetes, indicando que são itens da lista. Cada atributo dentro do objeto é uma informação específica do personagem, associada a uma chave (nome) e um valor correspondente.
-
-O JSON é uma maneira comum de trocar informações entre sistemas, aplicativos e servidores. Ele é fácil de entender tanto para humanos quanto para computadores, e é amplamente utilizado na comunicação de dados em várias tecnologias.
+O JSON é uma maneira comum de trocar informações entre sistemas, aplicativos e servidores.
+Ele é fácil de entender tanto para humanos quanto para computadores, e é amplamente utilizado 
+na comunicação de dados em várias tecnologias.

@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Homem de Ferro",
+        "avatar": "https://example.com/iron_man.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Capitão América",
+        "avatar": "https://example.com/captain_america.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Viúva Negra",
+        "avatar": "https: //example.com/black_widow.jpg"
+    }
+]

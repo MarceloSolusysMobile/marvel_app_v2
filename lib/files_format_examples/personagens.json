@@ -2,16 +2,25 @@
     {
         "id": 1,
         "name": "Homem de Ferro",
-        "avatar": "https://example.com/iron_man.jpg"
+        "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/70/4ce5a7383561c",
+            "extension": "jpg"
+        }
     },
     {
         "id": 2,
         "name": "Capitão América",
-        "avatar": "https://example.com/captain_america.jpg"
+        "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/70/4ce5a7383561c",
+            "extension": "jpg"
+        }
     },
     {
         "id": 3,
         "name": "Viúva Negra",
-        "avatar": "https: //example.com/black_widow.jpg"
+        "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/70/4ce5a7383561c",
+            "extension": "jpg"
+        }
     }
 ]

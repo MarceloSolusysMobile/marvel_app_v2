@@ -15,6 +15,7 @@ class _PersonagensListState extends State<PersonagensList> {
   // Método para obter a lista de personagens da API
   getPersonagens() async {
     PersonagemApi api = PersonagemApi();
+    //final personagens = await api.getPersonagensOffline();
     final personagens = await api.getPersonagens();
     setState(() {
       personagensList = personagens;

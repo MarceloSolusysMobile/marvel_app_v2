@@ -2,35 +2,25 @@ List<Map<String, dynamic>> personagensMap = [
   {
     'id': 1,
     'name': 'Homem de Ferro',
-    'avatar': 'https://example.com/iron_man.jpg'
+    'thumbnail': {
+      'path': 'http://i.annihil.us/u/prod/marvel/i/mg/6/70/4ce5a7383561c',
+      'extension': 'jpg'
+    }
   },
   {
     'id': 2,
     'name': 'Capitão América',
-    'avatar': 'https://example.com/captain_america.jpg'
+    'thumbnail': {
+      'path': 'http://i.annihil.us/u/prod/marvel/i/mg/6/70/4ce5a7383561c',
+      'extension': 'jpg'
+    }
   },
   {
     'id': 3,
     'name': 'Viúva Negra',
-    'avatar': 'https://example.com/black_widow.jpg'
+    'thumbnail': {
+      'path': 'http://i.annihil.us/u/prod/marvel/i/mg/6/70/4ce5a7383561c',
+      'extension': 'jpg'
+    }
   },
 ];
-
-/*
-Um Map em Dart é como uma coleção especial que armazena pares de chave-valor. No exemplo acima, personagensMap é uma lista de Mapas. Cada Mapa representa um personagem e contém três pares de chave-valor: 'id', 'name' e 'avatar'.
-
-Imagine isso como uma lista de cartas, onde cada carta tem um nome escrito na frente e alguma informação escrita atrás. No exemplo do Map, o nome (chave) é a palavra escrita na frente da carta, e a informação (valor) é o que está escrito atrás.
-
-O primeiro Mapa representa o Homem de Ferro:
-
-A chave 'id' tem o valor 1.
-A chave 'name' tem o valor 'Homem de Ferro'.
-A chave 'avatar' tem o valor 'https://example.com/iron_man.jpg'.
-E assim por diante para os outros personagens.
-
-Ao usar um Map, você pode acessar rapidamente informações (valores) associadas a chaves específicas. É como procurar em uma lista de endereços pelo nome para encontrar o número de telefone correspondente.
-
-Em Dart, o Map é uma estrutura de dados poderosa para organizar informações relacionadas e você pode fazer coisas como adicionar, remover ou atualizar pares chave-valor de maneira eficiente.
-
-Lembre-se de que as chaves são únicas dentro de um Map. Cada chave está associada a um único valor, assim como cada palavra em um dicionário tem apenas uma definição.
-*/
